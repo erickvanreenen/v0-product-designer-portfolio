@@ -62,7 +62,7 @@ export function CaseStudyLayout({
             {project.tags.map((tag) => (
               <span
                 key={tag}
-                className="text-xs px-2.5 py-1 bg-[#6B7355] text-white rounded-sm transition-colors duration-200 hover:bg-[#C65D3B]"
+                className="text-xs px-2.5 py-1 bg-[#3B2E1E] text-[#FFF2CA] rounded-sm transition-colors duration-200 hover:bg-[#C65D3B] hover:text-white"
               >
                 {tag}
               </span>
@@ -81,7 +81,7 @@ export function CaseStudyLayout({
               href={project.externalLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 mt-6 px-6 py-3 bg-[#6B7355] text-white text-sm font-medium rounded-sm hover:bg-[#C65D3B] hover:shadow-md transition-all duration-200 group"
+              className="inline-flex items-center gap-2 mt-6 px-6 py-3 bg-[#3B2E1E] text-[#FFF2CA] text-sm font-medium rounded-sm hover:bg-[#C65D3B] hover:text-white hover:shadow-md transition-all duration-200 group"
             >
               View Interactive Experience
               <ExternalLink size={16} className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-200" />

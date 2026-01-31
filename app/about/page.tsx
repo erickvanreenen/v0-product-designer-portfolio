@@ -185,7 +185,7 @@ export default function AboutPage() {
                 {skills.map((skill) => (
                   <span
                     key={skill}
-                    className="text-sm px-3 py-1.5 rounded-sm text-white bg-[#6B7355] hover:bg-[#C65D3B] transition-colors duration-200"
+                    className="text-sm px-3 py-1.5 rounded-sm text-[#FFF2CA] bg-[#3B2E1E] hover:bg-[#C65D3B] hover:text-white transition-colors duration-200"
                   >
                     {skill}
                   </span>
@@ -199,7 +199,7 @@ export default function AboutPage() {
                 {tools.map((tool) => (
                   <span
                     key={tool}
-                    className="text-sm px-3 py-1.5 rounded-sm text-white bg-[#6B7355] hover:bg-[#C65D3B] transition-colors duration-200"
+                    className="text-sm px-3 py-1.5 rounded-sm text-[#FFF2CA] bg-[#3B2E1E] hover:bg-[#C65D3B] hover:text-white transition-colors duration-200"
                   >
                     {tool}
                   </span>
