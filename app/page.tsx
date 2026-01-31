@@ -51,11 +51,8 @@ export default function HomePage() {
       {/* Hero Section */}
       <section className="py-20 md:py-32">
         <div className="max-w-6xl mx-auto px-6">
-          <p className="text-sm text-muted-foreground mb-4">Good morning</p>
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-normal leading-tight text-foreground max-w-3xl text-balance">
-            I&apos;m an experienced UX/UI designer with a passion for how exceptional
-            design impacts users&apos; lives, blending creativity, empathy, and
-            kindness in everything I create.
+            Fusing user needs with business outcomes, through research, data, empathy and design.
           </h1>
           <div className="flex flex-col sm:flex-row gap-4 mt-10">
             <Link
