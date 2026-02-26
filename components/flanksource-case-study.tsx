@@ -81,20 +81,21 @@ export function FlanksourceCaseStudy({ project, nextProject, prevProject }: Prop
 
         {/* Context */}
         <section className="mb-24">
-          <p className="text-lg text-foreground leading-relaxed font-bold">
-            {project.context}
+          <p className="text-lg text-foreground leading-relaxed">
+            {project.context.replace("Mission Control was built to close that gap.", "").trim()}{" "}
+            <strong>{"Mission Control was built to close that gap."}</strong>
           </p>
         </section>
 
         {/* Brief */}
         <section className="mb-24">
           <h2 className="text-3xl font-bold text-[#09332C] tracking-tight mb-10">Brief</h2>
-          <p className="text-base text-[#F0531C] leading-relaxed mb-8">
+          <p className="text-base text-foreground/70 leading-relaxed mb-8">
             Design a dashboard surfacing actionables and service health. Catalog, health checks, notifications, playbooks and topology in one view.
           </p>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
             {["Topology", "Playbooks", "Catalog", "Health Checks", "Notifications"].map((item) => (
-              <div key={item} className="border border-border px-4 py-3 bg-white">
+              <div key={item} className="border border-border px-4 py-3">
                 <p className="text-xs font-medium text-foreground">{item}</p>
               </div>
             ))}
