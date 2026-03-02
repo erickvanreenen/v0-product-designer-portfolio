@@ -1,5 +1,5 @@
+```tsx
 "use client";
-
 import { useState } from "react";
 import { projects, getAllTags, ProjectTag } from "@/lib/projects";
 import { ProjectCard } from "@/components/project-card";
@@ -8,7 +8,6 @@ import { TagFilter } from "@/components/tag-filter";
 export default function ProjectsPage() {
   const [activeTag, setActiveTag] = useState<ProjectTag | null>(null);
   const allTags = getAllTags();
-
   const filteredProjects = activeTag
     ? projects.filter((p) => p.tags.includes(activeTag))
     : projects;
@@ -21,22 +20,19 @@ export default function ProjectsPage() {
             Projects
           </h1>
           <p className="text-[#F0531C] max-w-lg">
-            UX work across e-commerce, apps and education.
+            UX work spanning e-commerce, apps, and education.
           </p>
         </div>
       </section>
-
       <div className="max-w-5xl mx-auto px-6 py-12 md:py-16">
         <div className="mb-12">
           <TagFilter tags={allTags} activeTag={activeTag} onTagChange={setActiveTag} />
         </div>
-
         <div className="grid md:grid-cols-2 gap-8">
           {filteredProjects.map((project) => (
             <ProjectCard key={project.slug} project={project} />
           ))}
         </div>
-
         {filteredProjects.length === 0 && (
           <div className="text-center py-20">
             <p className="text-foreground/30">No projects match this filter.</p>
@@ -46,3 +42,4 @@ export default function ProjectsPage() {
     </div>
   );
 }
+```

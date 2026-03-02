@@ -1,3 +1,4 @@
+```tsx
 import { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
@@ -8,13 +9,13 @@ export const metadata: Metadata = {
 };
 
 const experience = [
-  { title: "UX/UI Designer", company: "Silvertree Brands", period: "Sep 2024 - Present", desc: "UCOOK, Faithful to Nature, Pet Heaven." },
-  { title: "UX Designer", company: "YumEase", period: "Jul 2023 - Aug 2024", desc: "Sole designer. Inception to launch." },
-  { title: "Visual Team Lead", company: "UNi4 Online", period: "May 2021 - Aug 2024", desc: "Led design team. Built aggregator UX." },
-  { title: "Design Director", company: "Poly Nation", period: "Jun 2018 - Apr 2020", desc: "Full production. 40% turnover increase." },
-  { title: "Visual Designer", company: "Stories & Science", period: "Feb 2018 - Feb 2019", desc: "Visual design across brand and digital." },
-  { title: "Clothing Designer & Production Lead", company: "Lucky Friday", period: "Apr 2010 - Oct 2017", desc: "End-to-end design and production." },
-  { title: "Retail Owner", company: "Lucky Friday", period: "Feb 2001 - Apr 2012", desc: "Founded and operated retail business." },
+  { title: "UX/UI Designer", company: "Silvertree Brands", period: "Sep 2024 - Present", desc: "Designing across UCOOK, Faithful to Nature, and Pet Heaven." },
+  { title: "UX Designer", company: "YumEase", period: "Jul 2023 - Aug 2024", desc: "Sole designer. Took the product from inception to launch." },
+  { title: "Visual Team Lead", company: "UNi4 Online", period: "May 2021 - Aug 2024", desc: "Led the design team. Built the aggregator UX." },
+  { title: "Design Director", company: "Poly Nation", period: "Jun 2018 - Apr 2020", desc: "Owned full production. Drove a 40% increase in turnover." },
+  { title: "Visual Designer", company: "Stories & Science", period: "Feb 2018 - Feb 2019", desc: "Delivered visual design across brand and digital." },
+  { title: "Clothing Designer & Production Lead", company: "Lucky Friday", period: "Apr 2010 - Oct 2017", desc: "Managed end-to-end design and production." },
+  { title: "Retail Owner", company: "Lucky Friday", period: "Feb 2001 - Apr 2012", desc: "Founded and operated the retail business." },
 ];
 
 const education = [
@@ -63,10 +64,10 @@ export default function AboutPage() {
         {/* Bio */}
         <section className="mb-24 max-w-2xl">
           <p className="text-base text-foreground leading-relaxed mb-6">
-            Diverse background in entrepreneurship, business development, branding, product design, education design and UX/UI.
+            I bring a diverse background spanning entrepreneurship, business development, branding, product design, education design, and UX/UI.
           </p>
           <p className="text-base text-foreground leading-relaxed mb-6">
-            Research-driven. I uncover user needs and shape experiences that align with business goals.
+            I work research-first — uncovering user needs and shaping experiences that align with business goals.
           </p>
           <p className="text-base text-foreground/50 leading-relaxed">
             Beyond work: father, trail runner, ocean swimmer.
@@ -170,7 +171,7 @@ export default function AboutPage() {
               Open to opportunities.
             </h2>
             <p className="text-foreground/50 mb-8">
-              Discuss a project or say hello.
+              Let's discuss a project or just say hello.
             </p>
             <Link
               href="/contact"
@@ -185,3 +186,4 @@ export default function AboutPage() {
     </div>
   );
 }
+```

@@ -158,7 +158,7 @@ export function UCookCaseStudy({ project, nextProject, prevProject }: UCookCaseS
               <ul className="space-y-6">
                 <li className="text-sm text-foreground/70 leading-relaxed">60+ incomplete sign-ups per week.</li>
                 <li className="text-sm text-foreground/70 leading-relaxed">~R1.3M/year revenue leaking through funnel.</li>
-                <li className="text-sm text-foreground/70 leading-relaxed">56% of first billings 1-5 days post sign-up.</li>
+                <li className="text-sm text-foreground/70 leading-relaxed">56% of first billings 1–5 days post sign-up.</li>
               </ul>
             </div>
           </div>
@@ -182,8 +182,8 @@ export function UCookCaseStudy({ project, nextProject, prevProject }: UCookCaseS
           <h2 className="text-xs text-[#FFA74F] font-medium uppercase tracking-widest mb-8">Constraints</h2>
           <div className="space-y-6">
             <p className="text-sm text-[#F7EDDA]/60 leading-relaxed">No baseline funnel existed for testing.</p>
-            <p className="text-sm text-[#F7EDDA]/60 leading-relaxed">Billing logic was complex and misaligned with user models.</p>
-            <p className="text-sm text-[#F7EDDA]/60 leading-relaxed">Earlier payment carried operational refund risk.</p>
+            <p className="text-sm text-[#F7EDDA]/60 leading-relaxed">Billing logic was complex and misaligned with user mental models.</p>
+            <p className="text-sm text-[#F7EDDA]/60 leading-relaxed">Earlier payment introduced operational refund risk.</p>
           </div>
         </section>
 
@@ -199,8 +199,8 @@ export function UCookCaseStudy({ project, nextProject, prevProject }: UCookCaseS
               { step: "03", title: "Competitive benchmarking", desc: "Marley Spoon, Taste Box, Hello Fresh. Clear step patterns." },
               { step: "04", title: "Heuristic evaluation", desc: "Nielsen's 10. Three theme clusters identified." },
               { step: "05", title: "Unmoderated testing (Maze)", desc: "Blocked. No defined happy path to test against." },
-              { step: "06", title: "Moderated usability testing", desc: "Three sessions. Navigation and pricing clarity issues." },
-              { step: "07", title: "Measurement planning", desc: "GTM triggers per funnel step. GA, PostHog, heatmaps." },
+              { step: "06", title: "Moderated usability testing", desc: "Three sessions. Navigation and pricing clarity issues surfaced." },
+              { step: "07", title: "Measurement planning", desc: "Set up GTM triggers per funnel step. GA, PostHog, heatmaps." },
             ].map((step, i, arr) => (
               <div key={step.step} className="flex gap-6">
                 <div className="flex flex-col items-center">
@@ -245,7 +245,7 @@ export function UCookCaseStudy({ project, nextProject, prevProject }: UCookCaseS
           <h2 className="text-3xl font-bold text-[#09332C] tracking-tight mb-10">Solution</h2>
 
           <p className="text-base text-foreground/70 leading-relaxed mb-10">
-            Two workstreams. Quick wins shipped independently. Structural redesign addressed the funnel itself.
+            Two workstreams. Quick wins shipped independently. The structural redesign tackled the funnel itself.
           </p>
 
           <div className="grid md:grid-cols-2 gap-px bg-border">
@@ -282,7 +282,7 @@ export function UCookCaseStudy({ project, nextProject, prevProject }: UCookCaseS
             <div className="grid sm:grid-cols-2 gap-px bg-border">
               {[
                 { title: "scrollIntoView()", desc: "Step transitions, error states." },
-                { title: "Sticky header", desc: "Orientation during sign-up." },
+                { title: "Sticky header", desc: "Keeps users oriented during sign-up." },
                 { title: "Form validation", desc: "Inline errors. Prevent incomplete submits." },
                 { title: "Progress tracking", desc: "GTM triggers per funnel step." },
               ].map((spec) => (
@@ -352,7 +352,7 @@ export function UCookCaseStudy({ project, nextProject, prevProject }: UCookCaseS
           <div className="border-t border-border pt-10">
             <p className="text-4xl md:text-5xl font-bold text-[#F0531C]">+5.6%</p>
             <p className="text-sm text-foreground/50 mt-2 max-w-lg">
-              Absolute increase. Abandonment at top of funnel reduced from 91.1% to 75%. More users reached later stages.
+              Absolute increase. Abandonment at the top of the funnel dropped from 91.1% to 75%. More users reached later stages.
             </p>
           </div>
 

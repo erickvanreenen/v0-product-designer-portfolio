@@ -12,13 +12,13 @@ export default function HomePage() {
       <section className="bg-white">
         <div className="max-w-5xl mx-auto px-6 py-28 md:py-40">
           <p className="text-xs text-[#F0531C] font-medium uppercase tracking-widest mb-8">
-            Senior UX Designer
+            Senior UX/UI Designer
           </p>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-[#09332C] max-w-2xl tracking-tight">
-            Strategy. Systems. Outcomes.
+            Shape Strategy. Build Systems. Drive Outcomes.
           </h1>
           <p className="text-lg text-foreground/50 mt-6 max-w-xl">
-            E-commerce, omnichannel and EdTech.
+            Designing for e-commerce, omnichannel, and EdTech.
           </p>
           <div className="flex gap-4 mt-12">
             <Link
@@ -67,12 +67,12 @@ export default function HomePage() {
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-px bg-border/50">
             {[
-              { step: "01", title: "Research", desc: "Users, data, context." },
-              { step: "02", title: "Define", desc: "Insights into problems." },
-              { step: "03", title: "Ideate", desc: "Multiple directions explored." },
-              { step: "04", title: "Prototype", desc: "Tangible, testable concepts." },
-              { step: "05", title: "Test", desc: "Validated with real users." },
-              { step: "06", title: "Iterate", desc: "Refined through feedback." },
+              { step: "01", title: "Research", desc: "Dig into users, data, and context." },
+              { step: "02", title: "Define", desc: "Turn insights into sharp problems." },
+              { step: "03", title: "Ideate", desc: "Explore multiple directions." },
+              { step: "04", title: "Prototype", desc: "Build tangible, testable concepts." },
+              { step: "05", title: "Test", desc: "Validate with real users." },
+              { step: "06", title: "Iterate", desc: "Refine through feedback." },
             ].map((step) => (
               <div key={step.step} className="bg-background p-8">
                 <span className="text-xs text-[#F0531C] font-medium">{step.step}</span>
@@ -92,7 +92,7 @@ export default function HomePage() {
               Open to opportunities.
             </h2>
             <p className="text-foreground/50 mb-8">
-              Discuss a project or say hello.
+              Let's discuss a project or just say hello.
             </p>
             <Link
               href="/contact"
